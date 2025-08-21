@@ -1,0 +1,3 @@
+The Best First Search (Greedy Search) algorithm chooses the path that looks best at each step based only on the heuristic (Euclidean/Manhattan distance to the goal). This makes it faster and often finds a path quickly, but it may not always return the shortest path, since it does not consider the actual path cost taken so far.
+
+The A* Search algorithm, on the other hand, combines both the actual path cost (g) and the heuristic (h) to evaluate the total cost (f = g + h). This ensures that A* is both complete (it finds a solution if one exists) and optimal (it guarantees the shortest path). The tradeoff is that A* usually requires more memory and computation than Best First Search.
